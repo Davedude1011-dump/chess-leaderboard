@@ -26,12 +26,12 @@
 
 .shortLeft {
     position: relative;
-    left: 15%
+    left: 15%;
 }
 
 .title {
     position: relative;
-    font-size: 170px
+    font-size: 170px;
 }
 
 .gold {
@@ -48,4 +48,15 @@
 }
 .red {
     color: red
+}
+
+.border {
+    border: 5px solid transparent;
+    border-image: linear-gradient(90deg, transparent, red, transparent);
+    border-image-slice: 1;
+    border-left: none;
+    border-right: none;
+    border-image-slice: 1;
+    padding-left: 20px;
+    padding-right: 20px;
 }

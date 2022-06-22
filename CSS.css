@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-image: url("images/photo-1602968407815-5963b28c66af.avif");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url("images/photo-1602968407815-5963b28c66af.avif");
+        background-repeat: no-repeat;
+        background-size: 550%;
+    }
+}
+
+.table {
+    position: relative;
+    font-size: 160px;
+    margin-right: auto;
+}
+
+.shortLeft {
+    position: relative;
+    left: 15%
+}
+
+.title {
+    position: relative;
+    font-size: 170px
+}
+
+.gold {
+    color: gold
+}
+.silver {
+    color: silver
+}
+.green {
+    color: green
+}
+.blue {
+    color: blue
+}
+.red {
+    color: red
+}

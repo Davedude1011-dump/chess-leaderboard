@@ -25,6 +25,7 @@
 }
 
 .shortLeft {
+    width: 400px;
     position: relative;
     left: 15%;
 }
@@ -51,12 +52,14 @@
 }
 
 .border {
+    position: relative;
+    content: '';
+    display: block;
     border: 5px solid transparent;
     border-image: linear-gradient(90deg, transparent, red, transparent);
     border-image-slice: 1;
     border-left: none;
     border-right: none;
     border-image-slice: 1;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 150%
 }

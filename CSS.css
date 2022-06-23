@@ -96,6 +96,7 @@
     body {
         background-image: url("images/photo-1602968407815-5963b28c66af.avif");
         background-size: 550%;
+        height: 150vh
     }
     .table {
         position: relative;
@@ -108,7 +109,7 @@
     }
     
     .github { 
-        position: absolute;
+        position: fixed;
         display: block;
         border: 5px solid transparent;
         border-image: linear-gradient(45deg, black, red, gold);
@@ -118,13 +119,13 @@
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 40px;
-        top: 80%;
+        bottom: 6%;
         left: 1%;
         right: auto
     }
     
     .chess { 
-        position: absolute;
+        position: fixed;
         display: block;
         border: 5px solid transparent;
         border-image: linear-gradient(45deg, black, red, gold);
@@ -134,13 +135,13 @@
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 40px;
-        top: 80%;
+        bottom: 6%;
         left: auto;
         right: 1%
     }
     
     .crackers { 
-        position: absolute;
+        position: fixed;
         display: block;
         border: 5px solid transparent;
         border-image: linear-gradient(45deg, black, red, gold);
@@ -150,13 +151,13 @@
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 40px;
-        top: 85%;
+        bottom: 1%;
         left: 1%;
         right: auto
     }
     
     .mathsX { 
-        position: absolute;
+        position: fixed;
         display: block;
         border: 5px solid transparent;
         border-image: linear-gradient(45deg, black, red, gold);
@@ -166,7 +167,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 40px;
-        top: 85%;
+        bottom: 1%;
         left: auto;
         right: 1%
     }
